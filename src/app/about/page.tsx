@@ -92,7 +92,7 @@ export default function About() {
                 </div>
                 <div className="flex items-center gap-4 hover:translate-x-2 transition-transform duration-300">
                   <span className="text-2xl">📧</span>
-                  <span className="text-gray-700 dark:text-gray-200">contact@example.com</span>
+                  <a href="mailto:owoseniadekunle94@gmail.com" className="text-gray-700 dark:text-gray-200">owoseniadekunle94@gmail.com</a>
                 </div>
                 <div className="flex items-center gap-4 hover:translate-x-2 transition-transform duration-300">
                   <span className="text-2xl">🎓</span>
