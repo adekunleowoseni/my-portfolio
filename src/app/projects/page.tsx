@@ -51,7 +51,7 @@ const projects: Project[] = [
     description: "A scalable School Management System with advanced filtering, search, and payment integration.",
     imageUrl: "/project4.png",
     technologies: ["JavaScript", "Node.js", "PHP", "Paystack", "Html", "Css", "Bootstrap", "Mysql"],
-    link: "https://tgosfem.com",
+    link: "https://gosfem.com",
     github: "/contact",
     category: "UI/UX",
     stats: {
