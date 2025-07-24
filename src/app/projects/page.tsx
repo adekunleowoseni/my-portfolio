@@ -32,11 +32,11 @@ const projects: Project[] = [
     }
   },
   {
-    title: "Hair Styling Training Platform",
-    description: "A scalable Hair Styling Training solution with advanced filtering, search, and payment integration.",
+    title: "Kwik Ride Moblie Taxi Platform",
+    description: "A Scalable Mobile App for ride sharing and multiple passanger p2p with payment integration.",
     imageUrl: "/project2.png",
     technologies: ["JavaScript", "Node.js", "PHP", "Paystack", "Html", "Css", "Bootstrap", "Mysql"],
-    link: "https://thetouchacademy.com",
+    link: "https://ascentsbizhub.com",
     github: "/contact",
     category: "Web App",
     stats: {
