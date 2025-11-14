@@ -4,6 +4,7 @@ import "./globals.css";
 import Navigation from '@/components/Navigation';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import WhatsAppButton from '@/components/WhatsAppButton';
+import TargetCursor from '@/components/TargetCursor';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,6 +30,11 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <ThemeProvider>
+          <TargetCursor 
+            spinDuration={2}
+            hideDefaultCursor={true}
+            parallaxOn={true}
+          />
           <Navigation />
           {children}
           <WhatsAppButton />

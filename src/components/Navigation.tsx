@@ -26,7 +26,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo/Brand */}
           <Link href="/" 
-            className="flex items-center space-x-2 group">
+            className="cursor-target flex items-center space-x-2 group">
             <div className="w-10 h-10 rounded-xl bg-gradient-to-r from-purple-500 to-blue-500 
               flex items-center justify-center transform transition-transform 
               group-hover:scale-110 duration-300">
@@ -48,7 +48,7 @@ export default function Navigation() {
               <Link
                 key={index}
                 href={item.href}
-                className="px-4 py-2 rounded-xl text-gray-700 dark:text-gray-200 
+                className="cursor-target px-4 py-2 rounded-xl text-gray-700 dark:text-gray-200 
                   hover:bg-purple-500/10 dark:hover:bg-purple-500/20
                   relative group transition-all duration-300"
               >
@@ -67,7 +67,7 @@ export default function Navigation() {
             <ThemeToggle />
             <button 
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="p-2 rounded-xl hover:bg-purple-500/10 
+              className="cursor-target p-2 rounded-xl hover:bg-purple-500/10 
                 dark:hover:bg-purple-500/20 transition-colors duration-300"
             >
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" 
@@ -92,7 +92,7 @@ export default function Navigation() {
               key={index}
               href={item.href}
               onClick={() => setIsMobileMenuOpen(false)}
-              className="block px-3 py-2 rounded-xl text-base font-medium 
+              className="cursor-target block px-3 py-2 rounded-xl text-base font-medium 
                 text-gray-700 dark:text-gray-200 hover:bg-purple-500/10 
                 dark:hover:bg-purple-500/20 transition-colors duration-300"
             >
