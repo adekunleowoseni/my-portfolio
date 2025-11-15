@@ -326,7 +326,7 @@ export default function Projects() {
               Want to work together?
             </h2>
             <p className="text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto">
-              Let's collaborate on your next project and create something amazing together
+              Let&apos;s collaborate on your next project and create something amazing together
             </p>
             <Link href="/contact"
               className="cursor-target inline-flex items-center gap-2 px-10 py-4 rounded-2xl 

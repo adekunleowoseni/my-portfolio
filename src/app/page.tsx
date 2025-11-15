@@ -337,7 +337,7 @@ export default function Home() {
               Ready to Start Your Project?
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto">
-              Let's work together to bring your ideas to life with cutting-edge design and development
+              Let&apos;s work together to bring your ideas to life with cutting-edge design and development
             </p>
             <Link href="/contact"
               className="cursor-target inline-flex items-center gap-2 px-10 py-5 

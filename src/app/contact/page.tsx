@@ -39,7 +39,7 @@ const StatusModal = ({
               Message Sent!
             </h3>
             <p className="text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
-              Thank you for reaching out. I'll get back to you as soon as possible!
+              Thank you for reaching out. I&apos;ll get back to you as soon as possible!
             </p>
           </>
         ) : (
@@ -102,7 +102,7 @@ export default function Contact() {
       setFormData({ name: '', email: '', subject: '', message: '' });
       setShowModal(true);
 
-    } catch (error) {
+    } catch {
       setStatus('error');
       setShowModal(true);
     }
@@ -177,7 +177,7 @@ export default function Contact() {
             Get in Touch
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Have a project in mind? Let's discuss how we can bring your ideas to life together
+            Have a project in mind? Let&apos;s discuss how we can bring your ideas to life together
           </p>
         </div>
 

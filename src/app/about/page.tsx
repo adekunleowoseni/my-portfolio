@@ -209,7 +209,7 @@ export default function About() {
                   that not only look stunning but also provide exceptional user value.
                 </p>
                 <p>
-                  When I'm not coding, I enjoy exploring new design trends, contributing to open-source 
+                  When I&apos;m not coding, I enjoy exploring new design trends, contributing to open-source 
                   projects, and continuously learning to stay at the forefront of web development.
                 </p>
               </div>

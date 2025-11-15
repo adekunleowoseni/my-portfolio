@@ -1,7 +1,6 @@
 "use client";
 
 import React from 'react';
-// @ts-ignore - LogoLoop is a JSX component
 import LogoLoopComponent from './LogoLoop';
 
 export interface LogoItem {
@@ -35,9 +34,14 @@ export interface LogoLoopProps {
   style?: React.CSSProperties;
 }
 
-const LogoLoop: React.FC<LogoLoopProps> = (props) => {
-  return React.createElement(LogoLoopComponent as any, props);
-};
+const LogoLoop: React.FC<LogoLoopProps> = React.memo((props: LogoLoopProps) => {
+  // Cast the component to bypass TypeScript checking for JSX component
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const Component = LogoLoopComponent as React.ComponentType<any>;
+  return <Component {...props} />;
+});
+
+LogoLoop.displayName = 'LogoLoop';
 
 export default LogoLoop;
 
