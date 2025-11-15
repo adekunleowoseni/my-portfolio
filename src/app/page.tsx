@@ -1,5 +1,7 @@
+import React from 'react';
 import Image from "next/image";
 import Link from 'next/link';
+// @ts-ignore - LogoLoop is a JSX component without TypeScript definitions
 import LogoLoop from '@/components/LogoLoop';
 import { SiReact, SiNextdotjs, SiTypescript, SiTailwindcss, SiNodedotjs, SiMongodb } from 'react-icons/si';
 import { ArrowRight, Sparkles, Code, Palette, Zap } from 'lucide-react';
@@ -239,18 +241,18 @@ export default function Home() {
           <div className="relative h-[250px] overflow-hidden rounded-3xl 
             backdrop-blur-xl bg-white/50 dark:bg-gray-900/50 border border-gray-200/50 
             dark:border-gray-700/50 shadow-2xl p-8">
-            <LogoLoop
-              logos={techLogos}
-              speed={120}
-              direction="left"
-              logoHeight={64}
-              gap={60}
-              hoverSpeed={0}
-              scaleOnHover
-              fadeOut
-              fadeOutColor="#ffffff"
-              ariaLabel="Technology partners"
-            />
+            {React.createElement(LogoLoop as any, {
+              logos: techLogos,
+              speed: 120,
+              direction: "left",
+              logoHeight: 64,
+              gap: 60,
+              hoverSpeed: 0,
+              scaleOnHover: true,
+              fadeOut: true,
+              fadeOutColor: "#ffffff",
+              ariaLabel: "Technology partners"
+            })}
           </div>
         </div>
       </section>
