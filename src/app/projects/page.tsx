@@ -40,7 +40,7 @@ const projects: Project[] = [
     description: "A Scalable Mobile App for ride sharing and multiple passenger p2p with payment integration.",
     imageUrl: "/project2.png",
     technologies: ["JavaScript", "Node.js", "PHP", "Paystack", "Html", "Css", "Bootstrap", "Mysql"],
-    link: "https://ascentsbizhub.com",
+    link: "https://ascentsdemotest.space/",
     github: "/contact",
     category: "Web App",
     stats: {
@@ -50,11 +50,11 @@ const projects: Project[] = [
     }
   },
   {
-    title: "School Management System",
-    description: "A scalable School Management System with advanced filtering, search, and payment integration.",
+    title: "Marketplace Platform",
+    description: "A scalable Marketplace Platform with advanced filtering, search, and payment integration.",
     imageUrl: "/project4.png",
     technologies: ["JavaScript", "Node.js", "PHP", "Paystack", "Html", "Css", "Bootstrap", "Mysql"],
-    link: "https://gosfem.com",
+    link: "https://growafri.com",
     github: "/contact",
     category: "UI/UX",
     stats: {
