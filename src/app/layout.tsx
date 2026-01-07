@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Adekunle - Owoseni",
-  description: "Adekunle Owoseni Portfolio",
+  title: "Adekunle Owoseni - Fullstack & Mobile App Developer",
+  description: "Fullstack Developer & Mobile App Developer specializing in React, Next.js, Node.js, React Native, and Flutter. Building scalable web and mobile applications.",
 };
 
 export default function RootLayout({

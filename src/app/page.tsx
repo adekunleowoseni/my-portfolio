@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from 'next/link';
 import LogoLoop from '@/components/LogoLoopWrapper';
-import { SiReact, SiNextdotjs, SiTypescript, SiTailwindcss, SiNodedotjs, SiMongodb } from 'react-icons/si';
-import { ArrowRight, Sparkles, Code, Palette, Zap } from 'lucide-react';
+import { SiReact, SiNextdotjs, SiTypescript, SiTailwindcss, SiNodedotjs, SiMongodb, SiFlutter, SiExpress } from 'react-icons/si';
+import { ArrowRight, Sparkles, Code, Palette, Zap, Smartphone, Server } from 'lucide-react';
 
 const ProjectMockup = ({ imageUrl, title }: { imageUrl: string; title: string }) => (
   <div className="relative w-full aspect-[16/10] rounded-3xl overflow-hidden 
@@ -51,7 +51,10 @@ export default function Home() {
     { node: <SiTypescript className="w-12 h-12 text-[#3178C6]" />, title: "TypeScript", href: "https://www.typescriptlang.org" },
     { node: <SiTailwindcss className="w-12 h-12 text-[#06B6D4]" />, title: "Tailwind CSS", href: "https://tailwindcss.com" },
     { node: <SiNodedotjs className="w-12 h-12 text-[#339933]" />, title: "Node.js", href: "https://nodejs.org" },
+    { node: <SiExpress className="w-12 h-12 text-gray-800 dark:text-white" />, title: "Express.js", href: "https://expressjs.com" },
     { node: <SiMongodb className="w-12 h-12 text-[#47A248]" />, title: "MongoDB", href: "https://mongodb.com" },
+    { node: <SiReact className="w-12 h-12 text-[#61DAFB]" style={{ opacity: 0.8 }} />, title: "React Native", href: "https://reactnative.dev" },
+    { node: <SiFlutter className="w-12 h-12 text-[#02569B]" />, title: "Flutter", href: "https://flutter.dev" },
   ];
 
   const stats = [
@@ -63,21 +66,21 @@ export default function Home() {
 
   const services = [
     {
-      title: "Web Development",
-      description: "Building responsive, performant web applications with modern frameworks",
+      title: "Full-Stack Development",
+      description: "Building complete web applications with modern frontend and backend technologies",
       icon: Code,
       gradient: "from-blue-500 to-cyan-500"
     },
     {
-      title: "UI/UX Design",
-      description: "Creating intuitive and beautiful user interfaces that users love",
-      icon: Palette,
+      title: "Mobile App Development",
+      description: "Creating cross-platform mobile applications with React Native and Flutter",
+      icon: Smartphone,
       gradient: "from-purple-500 to-pink-500"
     },
     {
-      title: "Full-Stack Solutions",
-      description: "End-to-end development from frontend to backend and everything in between",
-      icon: Zap,
+      title: "Backend & API Development",
+      description: "Designing scalable server-side solutions, RESTful APIs, and database architectures",
+      icon: Server,
       gradient: "from-orange-500 to-red-500"
     }
   ];
@@ -117,18 +120,19 @@ export default function Home() {
             <h1 className="text-6xl sm:text-7xl md:text-8xl font-extrabold leading-tight">
               <span className="block bg-gradient-to-r from-purple-600 via-blue-600 to-pink-600 
                 dark:from-purple-400 dark:via-blue-400 dark:to-pink-400 bg-clip-text text-transparent">
-                Frontend Developer
+                Fullstack Developer
               </span>
               <span className="block text-5xl sm:text-6xl md:text-7xl mt-2 
                 text-gray-800 dark:text-gray-100">
-                & UI/UX Designer
+                & Mobile App Developer
               </span>
             </h1>
             
             <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto 
               leading-relaxed font-light">
-              I craft beautiful, responsive, and user-friendly web experiences 
-              with cutting-edge technologies and modern design principles
+              I build end-to-end solutions from web applications to mobile apps, 
+              creating scalable, performant, and user-friendly digital experiences 
+              with modern technologies and best practices
             </p>
 
             <div className="flex flex-wrap gap-4 justify-center pt-4">

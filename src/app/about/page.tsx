@@ -5,12 +5,13 @@ import { MapPin, Mail, GraduationCap, Github, Linkedin, Twitter, Instagram, Yout
 
 export default function About() {
   const skills = [
-    { name: 'React', level: '95%' },
+    { name: 'React/Next.js', level: '95%' },
     { name: 'TypeScript', level: '90%' },
-    { name: 'Next.js', level: '85%' },
-    { name: 'Tailwind CSS', level: '90%' },
-    { name: 'Node.js', level: '80%' },
-    { name: 'UI/UX Design', level: '85%' }
+    { name: 'Node.js/Express', level: '90%' },
+    { name: 'React Native', level: '85%' },
+    { name: 'Flutter', level: '80%' },
+    { name: 'MongoDB/Database', level: '85%' },
+    { name: 'API Development', level: '90%' }
   ];
 
   const socialLinks = [
@@ -108,7 +109,7 @@ export default function About() {
                 Adekunle Owoseni
               </h2>
               <p className="text-xl text-gray-600 dark:text-gray-300 text-center mb-8 font-medium">
-                Frontend Developer & UI/UX Designer
+                Fullstack Developer & Mobile App Developer
               </p>
 
               {/* Contact Info */}
@@ -199,18 +200,20 @@ export default function About() {
               </h2>
               <div className="space-y-4 text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
                 <p>
-                  Passionate frontend developer with a keen eye for design and user experience. 
-                  I specialize in creating responsive, accessible, and performant web applications 
-                  using modern technologies and best practices.
+                  Passionate fullstack developer specializing in building end-to-end solutions from web 
+                  applications to mobile apps. I create scalable, performant, and user-friendly digital 
+                  experiences using modern technologies and best practices across the entire stack.
                 </p>
                 <p>
-                  With a strong foundation in both development and design, I bridge the gap between 
-                  beautiful interfaces and robust functionality. My goal is to create digital experiences 
-                  that not only look stunning but also provide exceptional user value.
+                  With expertise in both frontend and backend development, as well as mobile app creation, 
+                  I deliver complete solutions that combine beautiful interfaces with robust functionality. 
+                  From React and Next.js for web to React Native and Flutter for mobile, I bring ideas to 
+                  life across all platforms.
                 </p>
                 <p>
-                  When I&apos;m not coding, I enjoy exploring new design trends, contributing to open-source 
-                  projects, and continuously learning to stay at the forefront of web development.
+                  When I&apos;m not coding, I enjoy exploring new technologies, contributing to open-source 
+                  projects, and continuously learning to stay at the forefront of fullstack and mobile 
+                  development.
                 </p>
               </div>
             </div>
