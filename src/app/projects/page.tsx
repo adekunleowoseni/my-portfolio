@@ -79,6 +79,19 @@ const projects: Project[] = [
     }
   },
   {
+    title: "Car Compliance Policy Agency",
+    description: "A compliance policy agency platform for vehicle regulation, policy management, and enforcement in Nigeria. Features secure document handling, user registration, and regulatory tools.",
+    imageUrl: "/car-dnlp.png", // Add your image to public/
+    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Node.js", "Payment Gateway"],
+    link: "http://car.dnlp.ng/",
+    category: "Web App",
+    stats: {
+      stars: 0,
+      forks: 0,
+      views: 0
+    }
+  },
+  {
     title: "Zeez Logistics - Shuttle Booking System",
     description: "A comprehensive shuttle booking platform with secure seat selection, multi-step booking process, and seamless payment integration. Features real-time trip availability and customer testimonials.",
     imageUrl: "/zeez-logistics.png",
