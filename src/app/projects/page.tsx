@@ -79,6 +79,32 @@ const projects: Project[] = [
     }
   },
   {
+    title: "Shop and Sell US",
+    description: "A US-based e-commerce platform for buying and selling products online, featuring secure payments, product listings, and user management.",
+    imageUrl: "/shopandsell.png", // Add your image to public/
+    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Node.js", "Payment Gateway"],
+    link: "https://www.shopandsell.us/",
+    category: "Web App",
+    stats: {
+      stars: 0,
+      forks: 0,
+      views: 0
+    }
+  },
+  {
+    title: "Edumatrix Exam Platform",
+    description: "An online examination platform for schools and organizations, featuring exam creation, student management, and result analytics.",
+    imageUrl: "/edumatrix-exam.png", // Add your image to public/
+    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Node.js", "Exam Management"],
+    link: "https://exam.ascentsdemotest.space/",
+    category: "Web App",
+    stats: {
+      stars: 0,
+      forks: 0,
+      views: 0
+    }
+  },
+  {
     title: "Car Compliance Policy Agency",
     description: "A compliance policy agency platform for vehicle regulation, policy management, and enforcement in Nigeria. Features secure document handling, user registration, and regulatory tools.",
     imageUrl: "/car-dnlp.png", // Add your image to public/
