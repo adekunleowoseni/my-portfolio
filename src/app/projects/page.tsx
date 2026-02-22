@@ -80,6 +80,19 @@ const projects: Project[] = [
     }
   },
   {
+    title: "Ascent Booking Platform",
+    description: "A web-based booking platform for managing reservations, appointments, and scheduling. Features user-friendly interface, secure booking, and real-time availability.",
+    imageUrl: "/booking-ascentsdemotest-space.png", // Captured homepage image
+    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Node.js", "Booking Management"],
+    link: "https://booking.ascentsdemotest.space/",
+    category: "Web App",
+    stats: {
+      stars: 0,
+      forks: 0,
+      views: 0
+    }
+  },
+  {
     title: "Shop and Sell US",
     description: "A US-based e-commerce platform for buying and selling products online, featuring secure payments, product listings, and user management.",
     imageUrl: "/shopandsell-us.png", // Captured homepage image
