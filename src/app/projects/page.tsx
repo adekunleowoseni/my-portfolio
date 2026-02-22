@@ -53,7 +53,7 @@ const projects: Project[] = [
   {
     title: "Marketplace Platform",
     description: "A scalable Marketplace Platform with advanced filtering, search, and payment integration.",
-    imageUrl: "/project4.png",
+    imageUrl: "/growafri.png",
     technologies: ["JavaScript", "Node.js", "PHP", "Paystack", "Html", "Css", "Bootstrap", "Mysql"],
     link: "https://growafri.com",
     github: "/contact",
