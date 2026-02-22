@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import type { Variants } from 'framer-motion';
 import { ExternalLink, Github, Star, GitFork, Eye, ArrowRight, Sparkles, Code2, Globe } from 'lucide-react';
 
 type Project = {
@@ -203,7 +204,7 @@ const containerVariants = {
   }
 };
 
-const itemVariants = {
+const itemVariants: Variants = {
   hidden: { 
     opacity: 0, 
     y: 30,
